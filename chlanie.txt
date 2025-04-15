@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#to jest skrypt probny
 day=$(date +u%)
 
 echo "dzisiaj jest $day dzien tygodnia"
