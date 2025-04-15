@@ -1,0 +1,12 @@
+#!/bin/bash
+
+day=$(date +u%)
+
+echo "dzisiaj jest $day dzien tygodnia"
+
+if [[ "$day" -eq 5 || "$day" -eq 6 ]];
+then
+echo "Jest weekend, idz sie napic"
+else 
+echo "Nie ma chlania w tygodniu"
+fi
